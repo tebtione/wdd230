@@ -1,0 +1,29 @@
+/* Paste the CSS code from the CodePen here */
+
+/* Add this CSS code */
+nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+  
+  header {
+    grid-row: 1;
+  }
+  
+  /* Delete this CSS code */
+  .sidebar-left {
+    grid-column: 1;
+    grid-row: 2 / span 2;
+  }
+  
+  /* Refactor the grid */
+  .container {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "nav"
+      "main"
+      "footer";
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
