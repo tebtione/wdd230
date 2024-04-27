@@ -1,0 +1,77 @@
+/* Set color schema and typography choices */
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Alignment */
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  
+  nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+  }
+  
+  /* Color contrast */
+  a {
+    color: #007bff;
+  }
+  
+  /* Proximity */
+  nav {
+    background-color: #154e13;
+  }
+  
+  /* Consistent spacing */
+  .card {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+
+  nav a:hover {
+    text-decoration: overline;
+  }
+
+  nav .active {
+    background-color: rgba(0,0,0,0.3);
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+  }
+
+  .parent section {
+    box-shadow: 1px 1px 10px black;
+  }

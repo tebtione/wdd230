@@ -1,0 +1,29 @@
+/* Media query for larger views */
+@media (min-width: 768px) {
+    /* CSS rules for larger views */
+  
+    /* Flex navigation */
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+  
+    /* Center main element */
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  
+    /* CSS Grid for main sections */
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+    }
+    
+    /* Style type of the course links list */
+    .card ul {
+      list-style-type: none;
+    }
+    
+  }

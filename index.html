@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tebakaro Tione - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development. Tebakaro Tione. Course Assignment Portal">
+    <meta name="author" content="Tebakaro Tione">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link ref="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="images/Profile.JPG" alt="Tebakaro Tione Profile" width="85" height="100">
+        <span>Brother Tebakaro Tione</span>
+    </header>
+    <nav>
+        <ul>
+            <li class="active"> <a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <section class="card">
+            <h2>Learning Activities</h2>
+            <ul>
+                <li><a href="#">Activity 1</a></li>
+                <li><a href="#">Activity 2</a></li>
+                <li><a href="#">Activity 3</a></li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>Information</h2>
+            <p>Weather: Weather information</p>
+            <p>Visits: Number of visits</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Tebakaro, Tarawa, Kiribati</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script>
+        // Dynamically populate the current year
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
