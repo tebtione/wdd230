@@ -1,9 +1,5 @@
 @media only screen and (min-width: 780rem) {
-  nav ul {
-    display: flex;
-    justify-content: center;
-  }
-  .parent {
+.parent {
     display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 10px;
