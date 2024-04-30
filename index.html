@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="styles/base.css">
     <link ref="stylesheet" href="styles/larger.css">
-
+       
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
@@ -39,8 +39,6 @@
                 <li><a href="#">Activity 2</a></li>
                 <li><a href="#">Activity 3</a></li>
                 <li><a href="#">Activity 4</a></li>
-
-
             </ul>
         </section>
         <section>
@@ -55,10 +53,6 @@
         <p>&copy; <span id="currentYear"></span> Tebakaro, Tarawa, Kiribati</p>
         <p id="lastModified"></p>
     </footer>
-
-    <script>
-        // Dynamically populate the current year
-        document.getElementById("currentYear").textContent = new Date().getFullYear();
-    </script>
+    <script src="scripts/getDates.js"></script>
 </body>
 </html>
