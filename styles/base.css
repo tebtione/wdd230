@@ -12,7 +12,9 @@ header, footer, nav {
 	border: 1px solid rgba(0,0,0,0.1);
 	margin: 0;
 }
-
+h1 {
+	text-align: center;
+}
 .parent {
 	margin: 1rem 2vw;
 }
@@ -37,11 +39,27 @@ header, footer, nav {
 nav {
 	background-color: #36454f;
 	margin: 0 auto;
-	max-width: 800px;
+	max-width: 100%;
 }
 nav a:hover {
 	text-decoration:overline;
+	background-color: #555;
 }
 .active {
 	color: yellow;
 }
+nav ul {
+	list-style: none; /* Remove default bullet points */
+	text-decoration: none;
+  }
+  
+  nav ul li {
+	display: inline-block; /* Display navigation items horizontally */
+  }
+ 
+nav ul li a {
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+	background-color:#333;
+  }
