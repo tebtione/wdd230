@@ -2,18 +2,20 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #eee;
 }
 
 header {
     text-align: center;
     padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav li {
@@ -24,7 +26,8 @@ nav li {
 li {
     list-style-type: none;
     padding: 5px;
-    margin: 0 10px;
+
+    display: block;
 }
 
 h2 {
@@ -41,7 +44,7 @@ main {
 }
 
 .card {
-    background-color: lightskyblue;
+    background-color: lightseagreen;
     margin: 10px 0;
     padding: 15px;
     border-radius: 5px;
@@ -52,14 +55,15 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: grey;
-    max-width: 800px;
+    max-width: 780px;
     margin: auto;
+    border-radius: 5px;
 }
 
 .profile-image {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
-    border: 3px solid #007BFF;
+    border: 2px solid black;
     object-fit: cover;
 }
