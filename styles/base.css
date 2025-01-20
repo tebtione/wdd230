@@ -21,30 +21,33 @@ nav ul {
 nav li {
     display: inline;
     margin: 0 10px;
-    color: C9C9C9;
+    color: #0056b3;
 }
 
 a {
     color: #007BFF;
+    text-decoration: none;
 }
 
 a:hover,
 a:focus {
-    color: #0056b3;
-    background-color: #e7f1ff;
+    color: #007BFF;
+    background-color: #007b;
 }
 
 li {
     list-style-type: none;
     padding: 5px;
     display: block;
+    color: var(black);
 }
 
 h2 {
-    background-color: grey;
+    background-color: cadetblue;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
+    color: black;
 }
 
 main {
@@ -54,7 +57,7 @@ main {
 }
 
 .card {
-    background-color: whitesmoke;
+    background-color: #e7f1ff;
     margin: 10px 0;
     padding: 15px;
     border-radius: 5px;
@@ -65,7 +68,7 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: grey;
+    background-color: cadetblue;
     max-width: 780px;
     margin: auto;
     border-radius: 5px;
