@@ -39,7 +39,7 @@ li {
     list-style-type: none;
     padding: 5px;
     display: block;
-    color: var(black);
+    color: black;
 }
 
 h2 {
