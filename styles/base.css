@@ -1,5 +1,5 @@
-body {
-    font-family: 'Roboto', sans-serif;
+* body {
+    font-family: 'Roboto', 'sans-serif';
     margin: 0;
     padding: 0;
     background-color: #fff;
@@ -20,8 +20,8 @@ nav ul {
 
 nav li {
     display: inline;
-    margin: 0 10px;
-    color: #0056b3;
+    margin: 0 20px;
+    color: blue;
 }
 
 a {
@@ -32,14 +32,14 @@ a {
 a:hover,
 a:focus {
     color: #007BFF;
-    background-color: #007b;
+    background-color: greenyellow;
 }
 
 li {
     list-style-type: none;
     padding: 5px;
     display: block;
-    color: black;
+    color: rgb(55, 27, 131);
 }
 
 h2 {
@@ -77,7 +77,21 @@ footer {
 .profile-image {
     width: 90px;
     height: 90px;
-    border-radius: 50%;
+    border-radius: 0%;
     border: 2px solid black;
     object-fit: cover;
+}
+
+.map-container {
+    margin: 20px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.map-container iframe {
+
+    padding: 10px;
+    width: 57%;
+    border: none;
+    height: 300px;
 }
