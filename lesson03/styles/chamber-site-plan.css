@@ -1,3 +1,11 @@
+:root {
+    --rich-black: #0d1f2dff;
+    --paynes-gray: #546a7bff;
+    --cadet-gray: #9ea3b0ff;
+    --misty-rose: #fae1dfff;
+    --desert-sand: #e4c3adff;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
