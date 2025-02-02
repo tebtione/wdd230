@@ -24,6 +24,8 @@ nav a {
     color: #ffffff;
     margin: 0 15px;
     text-decoration: none;
+    padding: 20px;
+    text-align: center;
 }
 
 nav a:hover {
