@@ -20,7 +20,7 @@ nav,
 main,
 footer {
     max-width: 800px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 
@@ -52,7 +52,7 @@ a:focus {
 }
 
 li {
-    list-style-type: none;
+
     padding: 5px;
     display: block;
     color: rgb(55, 27, 131);
