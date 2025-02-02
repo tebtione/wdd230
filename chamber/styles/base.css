@@ -6,17 +6,18 @@ body {
 }
 
 header {
-    background: #35424a;
-    color: #ffffff;
+    background: #fae1dfff;
+    color: #0d1f2dff;
     padding: 10px 0;
     text-align: center;
 }
 
 nav {
-    background: #333;
+    background: #546a7bff;
     color: #ffffff;
     padding: 15px;
     text-align: center;
+    max-width: 50px 0;
 }
 
 nav a {
@@ -26,7 +27,8 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #4cae4c;
 }
 
 main {
@@ -48,11 +50,45 @@ button:hover {
 }
 
 footer {
-    background: #35424a;
-    color: #ffffff;
+    background: #fae1dfff;
+    color: #0d1f2dff;
     text-align: center;
     padding: 10px 0;
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #0d1f2dff;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+/* Pseudo-element Example */
+.menu li::before {
+    content: '';
+    margin-right: 10px;
 }
