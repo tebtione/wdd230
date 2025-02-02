@@ -8,47 +8,46 @@
     <link rel="stylesheet" href="styles/base.css">
 
     <meta property="og:title" content="Tebakaro - WDD 230 - Web Frontend Development">
-    <meta property="og:type" content="Class-Project website">
+    <meta property="og:type" content="Class-website">
     <meta property="og:url" content="https://tebtione.github.io/wdd230/">
     <meta property="og:image" content="https://www.saratogasprings-ut.gov/Gallery.aspx?PID=1">
 
     <title>Chamber</title>
 </head>
 
-<body>
+<main>
     <header>
         <h1>Saratoga Chamber of Commerce</h1>
         <h2>Tebakaro Tione</h2>
     </header>
-
-    <nav class="navbar">
-        <div class="hamburger" id="hamburger">&#9776;</div>
-        <ul class="menu" id="menu">
-            <a href="#home">Home</a>
-            <a href="#discover">Discover</a>
-            <a href="#directory">Directory</a>
-            <a href="#join">Join</a>
-        </ul>
-    </nav>
+    <div style="overflow:auto">
+        <nav class="navbar">
+            <div class="hamburger" id="hamburger">&#9776;</div>
+            <ul class="menu" id="menu">
+                <a href="#home">Home</a>
+                <a href="#discover">Discover</a>
+                <a href="#directory">Directory</a>
+                <a href="#join">Join</a>
+            </ul>
+        </nav>
+    </div>
 
     <main>
         <p id="content">The main content still under construction, still working on it. This is a start</p>
-    </main>
 
-    <div class="container">
-        <div class="column">
-            <h2>Column 1</h2>
-            <p>This is the content of the first column.</p>
+        <h1>Sample Title/Purpose - Chamber</h1>
+
+        <div class="grid-container">
+            <div>Life</div>
+            <div>Events</div>
+            <div>Work</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
         </div>
-        <div class="column">
-            <h2>Column 2</h2>
-            <p>This is the content of the second column.</p>
-        </div>
-        <div class="column">
-            <h2>Column 3</h2>
-            <p>This is the content of the third column.</p>
-        </div>
-    </div>
+
+        <p>Use the <em>grid-template-rows above</em> for other items/activities.</p>
+    </main>
 
     <footer>
         <p>&copy; <span id="currentYear"></span> Tebakaro Tione | WDD 230 </p>
@@ -58,6 +57,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
 
-</body>
+    </body>
 
 </html>
