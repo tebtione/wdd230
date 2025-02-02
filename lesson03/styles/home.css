@@ -1,3 +1,132 @@
-:root {
-    --primary-color:
+/* styles/home.css */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: #546a7bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+/*Hamburger Menu Styles */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/*header h1 {
+    margin-bottom: 0.5rem;
+} */
+
+/* header h2 {
+    margin-bottom: 1rem;
+    font-weight: lighter;
+} */
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+
+nav ul a:hover {
+    background: #fae1dfff;
+}
+
+/* Main Section Styles */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    background: #fae1dfff;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    header {
+        padding: 0.5rem;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        background: #f4f4f4;
+        position: absolute;
+        top: 60px;
+        /* Adjust based on your header height */
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul.active {
+        display: flex;
+        /* Show menu when active */
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    nav ul a {
+        padding: 1rem;
+        border-bottom: 1px solid #0056b3;
+    }
+
+    /*main {
+        padding: 1rem;
+    } */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #546a7bff;
+    margin: auto;
+    border-radius: 5px;
+    max-width: 100%;
 }

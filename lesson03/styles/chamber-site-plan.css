@@ -25,7 +25,7 @@ h1 {
 }
 
 section {
-    background: #ffffff;
+    background: var(#9ea3b0ff);
     padding: 15px;
     margin: 10px 0;
     border-radius: 8px;
