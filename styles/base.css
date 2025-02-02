@@ -115,7 +115,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     background-color: #e7f1ff;
     max-width: 775px;
     margin: auto;
@@ -136,7 +136,7 @@ footer {
     display: none;
     cursor: pointer;
     font-size: 30px;
-    color: white;
+    color: #007BFF;
 }
 
 /* Responsive Styles */
