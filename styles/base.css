@@ -145,7 +145,7 @@ footer {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 30px;
         left: 0;
         background-color: #333;
         width: 100%;
@@ -163,5 +163,5 @@ footer {
 /* Pseudo-element Example */
 .menu li::before {
     content: '🔹';
-    margin-right: 10px;
+    margin-right: 5px;
 }
