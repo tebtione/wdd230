@@ -10,23 +10,25 @@ header {
     color: #0d1f2dff;
     padding: 10px 0;
     text-align: center;
+    margin: 20px;
 }
 
 nav {
     background: #546a7bff;
     color: #ffffff;
     padding: 15px;
-    text-align: center;
     max-width: 100%;
-    justify-content: center;
+    justify-content: right;
+    margin: 20px;
 }
 
 nav a {
     color: #ffffff;
     margin: 0 15px;
     text-decoration: none;
-    padding: 0px;
+    padding: 10px;
     text-align: center;
+    justify-content: center;
 }
 
 nav a:hover {
@@ -40,17 +42,17 @@ main {
     text-align: center;
 }
 
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #5cb85c;
-    color: white;
-    border: none;
-    cursor: pointer;
+.logo-container {
+
+    justify-content: left;
+    align-items: center;
 }
 
-button:hover {
-    background-color: #4cae4c;
+.logo {
+    max-width: 100px;
+    /* Adjust logo size */
+    height: auto;
+    margin-right: 10px;
 }
 
 footer {
