@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #546a7bff;
+    color: #333;
 }
 
 header {
@@ -22,7 +23,6 @@ footer {
     max-width: 800px;
     margin: 0 auto;
 }
-
 
 nav ul {
     list-style-type: none;
@@ -49,10 +49,10 @@ a:focus {
     color: #007BFF;
     background-color: greenyellow;
     padding: 5px;
+    border-radius: 5px;
 }
 
 li {
-
     padding: 5px;
     display: block;
     color: rgb(55, 27, 131);
@@ -64,6 +64,12 @@ h2 {
     border-radius: 5px;
     text-align: center;
     color: wheat;
+}
+
+h3 {
+    color: #3a3a3a;
+    /* Style for section headings */
+    margin: 10px 0;
 }
 
 main {
@@ -79,6 +85,8 @@ main {
     border-radius: 5px;
     text-align: center;
     font-weight: 300;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
 }
 
 footer {
@@ -93,7 +101,8 @@ footer {
 .profile-image {
     width: 100px;
     height: 100px;
-    border-radius: 0%;
+    border-radius: 50%;
+    /* Circular image */
     border: 2px solid black;
     object-fit: cover;
 }
@@ -109,12 +118,13 @@ footer {
     border: none;
     height: 250px;
     padding-top: 5px;
+    border-radius: 5px;
+    /* Rounded corners */
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 5px;
     background-color: #e7f1ff;
     max-width: 775px;
@@ -137,6 +147,44 @@ footer {
     cursor: pointer;
     font-size: 30px;
     color: #007BFF;
+    padding: 10px;
+}
+
+
+p {
+    margin: 10px 0;
+    /* Add margin for spacing */
+    line-height: 1.6;
+    /* Improve readability */
+}
+
+.hamburger:hover {
+    color: #0056b3;
+    /* Change color on hover */
+}
+
+.menu.active {
+    background-color: #444;
+    /* Darker background when active */
+}
+
+footer p {
+    margin: 5px 0;
+    /* Spacing for footer text */
+    font-size: 0.9em;
+    /* Slightly smaller font size */
+}
+
+.navbar a {
+    color: #007BFF;
+    /* Link color */
+    transition: color 0.3s;
+    /* Smooth transition for color */
+}
+
+.navbar a:hover {
+    color: #0056b3;
+    /* Darker color on hover */
 }
 
 /* Responsive Styles */
@@ -157,6 +205,16 @@ footer {
 
     .hamburger {
         display: block;
+    }
+
+    .map-container iframe {
+        width: 90%;
+        /* Full width on smaller screens */
+    }
+
+    .navbar {
+        flex-direction: column;
+        /* Stack navbar items */
     }
 }
 
