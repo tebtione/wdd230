@@ -10,6 +10,7 @@ header {
 .navbar {
     justify-content: center;
     padding: 30px;
+    color: blue;
 }
 
 .grid-container {
