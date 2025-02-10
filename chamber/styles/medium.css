@@ -1,51 +1,45 @@
-/* medium.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+@media (min-width: 768px) {
+    header {
+        padding: 15px 30px;
+        /* Adjust padding for medium screens */
+    }
 
-header {
-    background-color: #546a7bff;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
+    .menu-toggle {
+        display: none;
+        /* Hide hamburger menu on medium and larger screens */
+    }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--primary-color);
-}
+    .navMenu {
+        display: flex;
+        /* Show the nav menu */
+        align-items: center;
+        /* Align items in the nav */
+    }
 
-.navbar .menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
+    .nav-links {
+        display: flex;
+        /* Flexbox for horizontal layout */
+        gap: 15px;
+        /* Space between nav links */
+    }
 
-.navbar .menu a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-}
+    .nav-links li {
+        padding: 10px 15px;
+        /* Add padding to nav items */
+    }
 
-.navbar .menu a:hover {
-    background-color: #575757;
-}
+    .nav-links a {
+        font-size: 16px;
+        /* Increase font size for better readability */
+    }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    padding: 20px;
-}
+    main {
+        padding: 30px;
+        /* Add padding to main content for spacing */
+    }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #546a7bff;
+    footer {
+        padding: 20px;
+        /* Add padding to footer */
+    }
 }

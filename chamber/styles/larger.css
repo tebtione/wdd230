@@ -1,38 +1,61 @@
-/* larger.css */
-body {
-    font-family: Arial, sans-serif;
-}
+@media (min-width: 1024px) {
+    header {
+        padding: 20px 40px;
+        /* Increase padding for larger screens */
+    }
 
-header {
-    justify-content: center;
-}
+    .logo {
+        font-size: 28px;
+        /* Increase logo font size */
+    }
 
-.navbar {
-    justify-content: center;
-    padding: 30px;
-    color: blue;
-}
+    .menu-toggle {
+        display: none;
+        /* Hide menu toggle on larger screens */
+    }
 
-.grid-container {
-    grid-template-columns: repeat(3, 1fr);
-}
+    .navMenu {
+        display: flex;
+        /* Ensure nav menu is displayed */
+        align-items: center;
+        /* Align items in nav */
+        justify-content: space-between;
+        /* Space between items */
+    }
 
-footer {
-    padding: 10px 0;
-    max-width: 100%;
-    margin: 20px;
-}
+    .nav-links {
+        display: flex;
+        /* Flexbox for horizontal layout */
+        gap: 20px;
+        /* Space between nav links */
+    }
 
-/* Additional styles for larger screens */
-h1 {
-    font-size: 2.5em;
-}
+    .nav-links li {
+        padding: 15px 20px;
+        /* Increase padding for nav links */
+    }
 
-h2 {
-    font-size: 1.5em;
-}
+    .nav-links a {
+        font-size: 18px;
+        /* Increase font size for nav links */
+        text-decoration: none;
+        /* Remove underline from links */
+        color: inherit;
+        /* Inherit color from parent */
+    }
 
-#content {
-    font-size: 1.2em;
-    margin: 20px;
+    main {
+        padding: 40px;
+        /* Add padding to main content */
+    }
+
+    footer {
+        padding: 30px;
+        /* Increase padding for footer */
+    }
+
+    footer p {
+        font-size: 16px;
+        /* Increase footer text size */
+    }
 }

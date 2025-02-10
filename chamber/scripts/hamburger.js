@@ -1,7 +1,16 @@
-const hamburger = document.getElementById('hamburger');
-const menu = document.getElementById('menu');
+document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu = document.querySelector('.navMenu');
 
-hamburger.addEventListener('click', () => {
-    menu.classList.toggle('active');
-    hamburger.innerHTML = menu.classList.contains('active') ? '✖' : '≡';
+    menuToggle.addEventListener('click', () => {
+        if (navMenu.style.display === 'block') {
+            navMenu.style.display = 'none';
+        } else {
+            navMenu.style.display = 'block';
+        }
+    });
+
+    // Update current year and last modified date
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+    document.getElementById("lastModified").textContent = "Last modified: " + document.lastModified;
 });
