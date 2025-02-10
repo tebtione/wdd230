@@ -42,26 +42,24 @@
     </div>
 
     <main>
-        <section id="welcome">
-            <h1>Welcome</h1>
-            <p>Welcome to the Chamber of Commerce. We support local businesses and promote economic growth.</p>
-        </section>
-        <section id="services">
-            <h1>Our Services</h1>
-            <p>We offer a variety of services to help businesses thrive.</p>
-        </section>
-        <section id="events">
-            <h1>Upcoming Events</h1>
-            <p>Join us for our upcoming events and networking opportunities.</p>
-        </section>
-        <section id="contact">
-            <h1>Contact Us</h1>
-            <p>Get in touch with us for more information.</p>
-        </section>
-        <section id="spotlight">
-            <h1>Spotlight</h1>
-            <p>Spotlight here....</p>
-        </section>
+        <div class="join-container">
+            <h1>Join the Saratoga Chamber of Commerce</h1>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <input type="submit" value="Join Now">
+            </form>
+        </div>
     </main>
 
     <footer>
