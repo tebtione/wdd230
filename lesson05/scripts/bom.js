@@ -1,9 +1,9 @@
 const input = document.querySelector('#favchap');
-const button = cument.querySelector('button');
-const list = document.querySelector('#list')
+const button = document.querySelector('button'); // Fixed typo from 'cument' to 'document'
+const list = document.querySelector('#list');
 
 button.addEventListener('click', () => {
-    if (input.value != '') {
+    if (input.value !== '') { // Changed '!=' to '!=='
         const li = document.createElement('li');
         const deleteButton = document.createElement('button');
 
@@ -15,9 +15,8 @@ button.addEventListener('click', () => {
 
         deleteButton.addEventListener('click', function () {
             list.removeChild(li);
-        })
+        });
 
-        input.value = '';
+        input.value = ''; // Removed duplicate line
     }
-    input.value = '';
 });
