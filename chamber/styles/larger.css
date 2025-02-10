@@ -11,23 +11,18 @@
 
     .menu-toggle {
         display: none;
-        /* Hide menu toggle on larger screens */
+        /* If you want, can hide menu toggle on larger screens */
     }
 
     .navMenu {
         display: flex;
-        /* Ensure nav menu is displayed */
         align-items: center;
-        /* Align items in nav */
         justify-content: space-between;
-        /* Space between items */
     }
 
     .nav-links {
         display: flex;
-        /* Flexbox for horizontal layout */
         gap: 20px;
-        /* Space between nav links */
     }
 
     .nav-links li {
@@ -37,9 +32,7 @@
 
     .nav-links a {
         font-size: 18px;
-        /* Increase font size for nav links */
         text-decoration: none;
-        /* Remove underline from links */
         color: inherit;
         /* Inherit color from parent */
     }
@@ -56,6 +49,5 @@
 
     footer p {
         font-size: 16px;
-        /* Increase footer text size */
     }
 }

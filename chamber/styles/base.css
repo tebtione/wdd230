@@ -100,7 +100,7 @@ body.dark-mode {
     position: absolute;
     width: 26px;
     height: 26px;
-    background: var(--secondary-color);
+    background: var(--accent2-color);
     border-radius: 50%;
     transition: transform 0.3s;
 }
@@ -125,11 +125,8 @@ body.dark-mode {
 section {
     padding: 20px;
     border: 1px solid #ddd;
-    /* Optional: Add a border for visibility */
     border-radius: 8px;
-    /* Optional: Add rounded corners */
     background-color: var(--accent1-color)
-        /* Optional: Add a background color */
 }
 
 #services,
@@ -143,15 +140,11 @@ section {
 
 section {
     padding: 40px;
-    /* Increased padding for more vertical space */
-    border: 1px solid #ddd;
+    border: 1px solid var(--accent1-color);
     /* Optional: Add a border for visibility */
     border-radius: 8px;
-    /* Optional: Add rounded corners */
-    background-color: #f9f9f9;
-    /* Optional: Add a background color */
+    background-color: var(--accent1-color);
     min-height: 100px;
-    /* Set a minimum height for each section */
 }
 
 /* Responsive styles */
@@ -186,15 +179,10 @@ main {
 
 section {
     padding: 40px;
-    /* Increased padding for more vertical space */
     border: 1px solid #ddd;
-    /* Optional: Add a border for visibility */
     border-radius: 8px;
-    /* Optional: Add rounded corners */
-    background-color: #f9f9f9;
-    /* Optional: Add a background color */
+    background-color: var(--secondary-color);
     min-height: 200px;
-    /* Set a minimum height for each section */
 }
 
 /* Responsive styles */
