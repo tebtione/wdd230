@@ -1,7 +1,8 @@
 @media (min-width: 1024px) {
     header {
-        padding: 20px 40px;
-        /* Increase padding for larger screens */
+        padding: 10px 40px;
+        /* Adjust padding for larger screens */
+        /* Consider using a larger value for a more spacious header */
     }
 
     .logo {
@@ -11,18 +12,23 @@
 
     .menu-toggle {
         display: none;
-        /* If you want, can hide menu toggle on larger screens */
+        /* Hide menu toggle on larger screens */
     }
 
     .navMenu {
         display: flex;
+        /* Flex layout for nav menu */
         align-items: center;
+        /* Center items vertically */
         justify-content: space-between;
+        /* Space between items */
     }
 
     .nav-links {
         display: flex;
+        /* Flex layout for nav links */
         gap: 20px;
+        /* Space between links */
     }
 
     .nav-links li {
@@ -32,7 +38,9 @@
 
     .nav-links a {
         font-size: 18px;
+        /* Set font size for links */
         text-decoration: none;
+        /* Remove underline from links */
         color: inherit;
         /* Inherit color from parent */
     }
@@ -42,6 +50,10 @@
         /* Add padding to main content */
     }
 
+    section {
+        padding: 20px;
+    }
+
     footer {
         padding: 30px;
         /* Increase padding for footer */
@@ -49,5 +61,6 @@
 
     footer p {
         font-size: 16px;
+        /* Set font size for footer paragraphs */
     }
 }
