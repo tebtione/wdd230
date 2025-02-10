@@ -89,7 +89,7 @@ body.dark-mode {
     display: inline-block;
     width: 60px;
     height: 30px;
-    background: #ccc;
+    background: var(--accent3-color);
     border-radius: 15px;
     position: relative;
     cursor: pointer;
@@ -100,7 +100,7 @@ body.dark-mode {
     position: absolute;
     width: 26px;
     height: 26px;
-    background: white;
+    background: var(--secondary-color);
     border-radius: 50%;
     transition: transform 0.3s;
 }
@@ -115,9 +115,9 @@ body.dark-mode {
 
 #services,
 #events,
-#contact {
+#contact #welcome {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     /* Space between columns */
 }
