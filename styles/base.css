@@ -68,6 +68,15 @@ h2 {
     color: wheat;
 }
 
+/* weather information */
+#weather-info {
+    margin-top: 20px;
+}
+
+img {
+    width: 100px;
+}
+
 h3 {
     color: #3a3a3a;
     /* Style for section headings */
