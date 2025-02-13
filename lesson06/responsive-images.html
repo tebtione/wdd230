@@ -4,11 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tebakaro - WDD 230 - Web Frontend Development</title>
+    <meta name="description"
+        content="Wdd 230 - Web Fronted Development Course assignment portal by Tebakaro. This site showcases projects and activities.">
+    <meta name="author" content="Tebakaro Tione">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
+
+    <meta property="og:title" content="Tebakaro - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tebtione.github.io/wdd230/">
+    <meta property="og:image" content="https://www.saratogasprings-ut.gov/Gallery.aspx?PID=1">
 </head>
 
 <body>
+    <main>
 
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+                <source medi="(max-width: 1000px)" srcset="images/hero-medium.webp">
+                <img src="images/hero.large.webp" alt="Responsive image of Saratoga Springs, Utah Temple.">
+                <div class="herolabel">
+                    <p>Saratoga Springs Temple</p>
+                </div>
+            </picture>
+        </div>
+    </main>
 </body>
 
 </html>
