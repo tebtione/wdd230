@@ -1,13 +1,13 @@
+/* Large Screen Styles */
 @media (min-width: 1024px) {
     header {
-        padding: 10px 40px;
-        /* Adjust padding for larger screens */
-        /* Consider using a larger value for a more spacious header */
+        padding: 10px 80px;
+        /* Adjusted for larger screens */
     }
 
     .logo {
         font-size: 28px;
-        /* Increase logo font size */
+        /* Increased logo font size */
     }
 
     .menu-toggle {
@@ -16,13 +16,12 @@
     }
 
     .navMenu {
-        display: block;
-        /* Flex layout for nav menu */
+        display: flex;
+        /* Use flex layout for nav menu */
         align-items: center;
         /* Center items vertically */
         justify-content: space-between;
         /* Space between items */
-
     }
 
     .nav-links {
@@ -34,7 +33,7 @@
 
     .nav-links li {
         padding: 15px 20px;
-        /* Increase padding for nav links */
+        /* Increased padding for nav links */
     }
 
     .nav-links a {
@@ -44,6 +43,8 @@
         /* Remove underline from links */
         color: inherit;
         /* Inherit color from parent */
+        transition: color 0.3s;
+        /* Smooth transition for color change */
     }
 
     main {
@@ -51,8 +52,14 @@
         /* Add padding to main content */
     }
 
-    section {
+    /* Div Styles for larger screens */
+    #welcome,
+    #services,
+    #events,
+    #contact,
+    #spotlight {
         padding: 20px;
+        /* Consistent padding for divs */
     }
 
     footer {
@@ -63,5 +70,11 @@
     footer p {
         font-size: 16px;
         /* Set font size for footer paragraphs */
+    }
+
+    /* Ensure hero section retains full width styling */
+    .hero {
+        margin: 20px auto;
+        /* Maintain margin for hero section */
     }
 }

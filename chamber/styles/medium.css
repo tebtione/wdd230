@@ -1,3 +1,4 @@
+/* Medium Screen Styles */
 @media (min-width: 768px) {
     header {
         padding: 15px 30px;
@@ -31,6 +32,8 @@
     .nav-links a {
         font-size: 16px;
         /* Increase font size for better readability */
+        transition: color 0.3s;
+        /* Smooth transition for color change */
     }
 
     main {
@@ -38,8 +41,9 @@
         /* Add padding to main content for spacing */
     }
 
-    footer {
-        padding: 20px;
-        /* Add padding to footer */
+    /* Ensure the hero section still spans full width */
+    .hero {
+        margin: 20px auto;
+        /* Center the hero section */
     }
 }

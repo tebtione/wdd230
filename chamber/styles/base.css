@@ -8,6 +8,7 @@
     --paragraph-font: "Source Sans 3", sans-serif;
 }
 
+/* Global Styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,10 +25,11 @@ body.dark-mode {
     color: var(--secondary-color);
 }
 
+/* Header Styles */
 header {
     background: var(--primary-color);
     color: white;
-    padding: 20px 40px;
+    padding: 20px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +40,6 @@ header {
 
 .logo {
     font-size: 24px;
-    text-align: left;
 }
 
 .menu-toggle {
@@ -47,6 +48,7 @@ header {
     font-size: 24px;
 }
 
+/* Navigation Styles */
 .navMenu {
     display: block;
     background-color: var(--primary-color);
@@ -63,7 +65,6 @@ header {
 
 .nav-links li {
     margin: 0 15px;
-    padding: 10px 0;
 }
 
 .nav-links a {
@@ -79,32 +80,152 @@ header {
     color: white;
 }
 
-a:hover {
+/* Title Styles */
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+    font-size: 2.5em;
+}
+
+/* Main Layout */
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.call-to-action {
+    position: absolute;
+    bottom: 8px;
+    padding: 12px;
+    min-width: 100px;
+    width: 70%;
+    background-color: var(--accent2-color);
+    box-shadow: 0 10px 30px var(--secondary-color);
+    border: none;
+}
+
+.call-to-action:hover {
     background-color: var(--accent1-color);
 }
 
-h1 {
-    text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 10px;
+/* Content Styles */
+#welcome,
+#services,
+#events,
+#contact,
+#spotlight {
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid var(--accent1-color);
+    border-radius: 8px;
+    background-color: var(--accent2-color);
+    min-height: 100px;
 }
 
+.left-content,
+.right-content {
+    padding: 20px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 8px;
+    background-color: var(--accent2-color);
+}
+
+/* Chamber of Commerce Spotlight Styles */
+#chamber-spotlights {
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid var(--accent1-color);
+    border-radius: 8px;
+    background-color: var(--accent3-color);
+}
+
+.spotlight-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    background-color: var(--accent2-color);
+}
+
+.spotlight-item h3 {
+    font-size: 1.5em;
+    color: var(--primary-color);
+}
+
+.spotlight-item p {
+    font-size: 1em;
+    color: var(--accent1-color);
+}
+
+/* Hero Section Styling */
+.hero {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    grid-column: 1 / -1;
+    margin: 20px 0;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 500px) {
+    .herolabel p {
+        font-size: 1.2rem;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+}
+
+@media (max-width: 1000px) {
+    .herolabel p {
+        font-size: 1.5rem;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+    }
+}
+
+@media (max-width: 1500px) {
+    .herolabel p {
+        font-size: 1.7rem;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+    }
+}
+
+.herolabel {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+/* Footer Styles */
 footer {
     background-color: var(--primary-color);
     color: white;
     text-align: center;
-    padding: 20px 40px;
-    position: relative;
-    bottom: 0;
+    padding: 20px 10%;
     width: 100%;
     z-index: 1000;
-    max-width: 100%;
 }
 
 footer p {
     margin: 5px 0;
 }
 
+/* Toggle Switch Styles */
 .toggle-container {
     position: absolute;
     top: 20px;
@@ -139,55 +260,6 @@ footer p {
     transform: translateX(30px);
 }
 
-/* Main Content Grid */
-main {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    padding: 20px;
-}
-
-/* Section Styles */
-section {
-    padding: 20px;
-    margin: 10px 0;
-    border: 1px solid var(--accent1-color);
-    border-radius: 8px;
-    background-color: var(--accent2-color);
-    min-height: 100px;
-}
-
-/* Grid Layout for Sections */
-#welcome {
-    grid-column: span 5;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-}
-
-#services {
-    grid-column: span 3;
-    background-color: var(--accent1-color);
-    color: var(--accent3-color);
-}
-
-#events {
-    grid-column: span 2;
-    background-color: var(--accent3-color);
-    color: var(--primary-color);
-}
-
-#contact {
-    grid-column: span 1;
-    background-color: var(--accent2-color);
-    color: var(--primary-color);
-}
-
-#spotlight {
-    grid-column: span 1;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-}
-
 /* Responsive Styles */
 @media (max-width: 768px) {
     main {
@@ -199,61 +271,15 @@ section {
     main {
         grid-template-columns: 1fr;
     }
-}
 
-/* Media Query for Larger Screens */
-@media (min-width: 1024px) {
-    header {
-        padding: 20px 80px;
+    header,
+    footer {
+        padding: 20px 5%;
     }
 }
 
-/* Join File CSS */
-.join-container {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    background: var(--accent1-color);
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Form Styles */
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="password"],
-textarea {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid var(--primary-color);
-    border-radius: 4px;
-}
-
-input[type="submit"] {
-    padding: 10px;
-    background-color: var(--accent1-color);
-    color: var(--primary-color);
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-input[type="submit"]:hover {
-    background-color: var(--secondary-color);
-}
-
-/* Discover File CSS */
+/* Additional Styles */
+.join-container,
 .disc-container {
     max-width: 800px;
     margin: 40px auto;
@@ -278,7 +304,7 @@ input[type="submit"]:hover {
 }
 
 .attraction {
-    width: calc(50% - 10px);
+    flex: 1 0 calc(50% - 10px);
     margin-bottom: 20px;
     border: 1px solid var(--primary-color);
     border-radius: 8px;
@@ -324,12 +350,6 @@ input[type="submit"]:hover {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     max-width: 600px;
     margin: 20px auto;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: var(--primary-color);
 }
 
 .directory-list {
