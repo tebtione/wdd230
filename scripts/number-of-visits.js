@@ -10,7 +10,7 @@ if (!visitCount) {
 }
 
 // Increment the visit count
-visitCount++;
+visitCount;
 
 // Store the updated count back to localStorage
 localStorage.setItem(pageVisitKey, visitCount);
