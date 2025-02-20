@@ -176,7 +176,7 @@ p {
 }
 
 .menu.active {
-    background-color: green;
+    background-color: black;
     /* Darker background when active */
 }
 
