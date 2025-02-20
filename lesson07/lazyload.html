@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Images</title>
+
+    <meta name="author" content="Tebakaro Tione">
+    <link rel="stylesheet" href="styles/lazyload.css">
+</head>
+
+<body>
+    <h1>lazy Load Images</h1>
+    <main>
+        <picture>
+            <img src="https://picsum.photos/200/300" alt="random images" loading="lazy" width="400" height="600">
+            <img src="https://loremflickr.com/320/240" alt="randonm cat images" loading="lazy" width="400" height="600">
+            <img src="https://picsum.photos/200/300/?blur" alt="random images" loading="lazy" width="400" height="600">
+            <img src="https://placebear.com/200/300" alt="two brown bears" loading="lazy" width="400" height="600">
+            <img src="https://picsum.photos/200/300?grayscale" alt="random images" loading="lazy" width="400"
+                height="600">
+            <img src="https://picsum.photos/seed/picsum/200/300" alt="snow beak mountain" loading="lazy" width="400"
+                height="600">
+        </picture>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Tebakaro Tione | BYU-Idaho | WDD 230</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+</body>
+
+</html>
