@@ -8,7 +8,7 @@ body {
     font-family: 'Roboto', 'sans-serif';
     margin: 0;
     padding: 0;
-    background-color: #546a7bff;
+    background-color: grey;
     color: #333;
 }
 
@@ -78,7 +78,7 @@ img {
 }
 
 h3 {
-    color: #3a3a3a;
+    color: black;
     /* Style for section headings */
     margin: 10px 0;
 }
@@ -103,10 +103,11 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: cadetblue;
+    background-color: black;
     margin: auto;
     border-radius: 5px;
     max-width: 765px;
+    color: #e7f1ff;
 }
 
 .profile-image {
@@ -122,6 +123,7 @@ footer {
     margin: 10px 0;
     text-align: center;
     overflow: hidden;
+    transition: 15s;
 }
 
 .map-container iframe {
@@ -137,7 +139,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 5px;
-    background-color: #e7f1ff;
+    background-color: black;
     max-width: 775px;
     margin: auto;
     border-radius: 5px;
@@ -187,7 +189,7 @@ footer p {
 }
 
 .navbar a {
-    color: #007BFF;
+    color: white;
     /* Link color */
     transition: color 0.3s;
     /* Smooth transition for color */
