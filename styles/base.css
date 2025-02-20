@@ -127,10 +127,9 @@ footer {
 }
 
 .map-container iframe {
-    width: 57%;
+    width: 760px;
     border: none;
     height: 250px;
-    padding-top: 5px;
     border-radius: 5px;
     /* Rounded corners */
 }
@@ -138,9 +137,9 @@ footer {
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 10px;
     background-color: black;
-    max-width: 775px;
+    max-width: 762px;
     margin: auto;
     border-radius: 5px;
 }
@@ -177,7 +176,7 @@ p {
 }
 
 .menu.active {
-    background-color: #444;
+    background-color: green;
     /* Darker background when active */
 }
 
@@ -221,7 +220,7 @@ footer p {
     }
 
     .map-container iframe {
-        width: 90%;
+        width: 100%;
         /* Full width on smaller screens */
     }
 
