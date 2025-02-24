@@ -41,28 +41,77 @@
         <div class="toggle-switch" id="darkModeToggle"></div>
     </div>
 
-    <div class="sidebar">
-        <h2>Welcome Message</h2>
-        <p id="welcome-message"></p>
-        <h3>Demographics</h3>
-        <p>Population: 10,000</p>
-        <h3>Attractions</h3>
-        <ul>
-            <li>Park</li>
-            <li>Museum</li>
-            <li>Shopping District</li>
-        </ul>
-        <!-- Additional sidebar content -->
-    </div>
+    <main class="discover-main">
+        <section class="side-bar">
+            <div class="events">
+                <h2>Area Information and Statistic</h2>
+                <p>Population:</p>
+                <p>Area:</p>
+                <p>Population Density:</p>
+                <p>Medium Income:</p>
+                <p>Medium Age:</p>
+                <p>Medium Home Price:</p>
+                <p>Page Visit Info:</p>
+                <div clas="visits"></div>
+            </div>
 
-    <main class="gallery">
-        <h2>Local Photos</h2>
-        <img src="images/spotlight1.webp" alt="Description 1" loading="lazy">
-        <img src="images/spotlight2.webp" alt="Description 2" loading="lazy">
-        <img src="images/spotlight3.webp" alt="Description 3" loading="lazy">
-        <img src="images/spotlight1.webp" alt="Description 1" loading="lazy">
-        <img src="images/spotlight2.webp" alt="Description 2" loading="lazy">
-        <img src="images/spotlight3.webp" alt="Description 3" loading="lazy">
+            <div id="calendar-container"></div>
+        </section>
+
+        <section class="image-gallery">
+            <div class="img">
+                <h2>Attraction 1</h2>
+                <picture>
+                    <source srcset="images/spotlight1.webp" media="(min-width: 350px)">
+                    <source srcset="images/spotlight1.webp" media="(min-width: 550px)">
+                    <source src="images/spotlight1.webp" alt="Attraction 1" loading="lazy" width="850" heigth="450">
+                </picture>
+            </div>
+
+            <div class="img">
+                <h2>Attraction 2</h2>
+                <picture>
+                    <source srcset="images/spotlight1.webp" media="(min-width: 350px)">
+                    <source srcset="images/spotlight1.webp" media="(min-width: 550px)">
+                    <source src="images/spotlight1.webp" alt="Attraction 2" loading="lazy" width="850" heigth="450">
+                </picture>
+            </div>
+
+            <div class="img">
+                <h2>Attraction 3</h2>
+                <picture>
+                    <source srcset="images/spotlight1.webp" media="(min-width: 350px)">
+                    <source srcset="images/spotlight1.webp" media="(min-width: 550px)">
+                    <source src="images/spotlight1.webp" alt="Attraction 3" loading="lazy" width="850" heigth="450">
+                </picture>
+            </div>
+
+            <div class="img">
+                <h2>Attraction 4</h2>
+                <picture>
+                    <source srcset="images/spotlight1.webp" media="(min-width: 350px)">
+                    <source srcset="images/spotlight1.webp" media="(min-width: 550px)">
+                    <source src="images/spotlight1.webp" alt="Attraction 4" loading="lazy" width="850" heigth="450">
+                </picture>
+            </div>
+
+            <div class="img">
+                <h2>Attraction 5</h2>
+                <picture>
+                    <source srcset="images/spotlight1.webp" media="(min-width: 350px)">
+                    <source srcset="images/spotlight1.webp" media="(min-width: 550px)">
+                    <source src="images/spotlight1.webp" alt="Attraction 5" loading="lazy" width="850" heigth="450">
+                </picture>
+            </div>
+
+            <div class="img">
+                <h2>Attraction 6</h2>
+                <picture>
+                    <source srcset="images/spotlight1.webp" media="(min-width: 350px)">
+                    <source srcset="images/spotlight1.webp" media="(min-width: 550px)">
+                    <source src="images/spotlight1.webp" alt="Attraction 6" loading="lazy" width="850" heigth="450">
+                </picture>
+            </div>
     </main>
 
     <footer>
@@ -73,6 +122,7 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/toggle-switch.js"></script>
     <script src="scripts/localstorage.js"></script>
+    <script src="scripts/calender.js"></script>
 
 </body>
 
