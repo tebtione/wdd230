@@ -380,3 +380,27 @@ footer p {
 .phone {
     color: var(--accent1-color);
 }
+
+/* Sidebar Grid Layout */
+
+@media (max-width: 768px) {
+    body {
+        grid-template-columns: 1fr;
+        /* Single column for mobile */
+    }
+}
+
+.sidebar {
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+/* Hover Effect */
+.gallery img {
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    /* Example hover effect */
+}

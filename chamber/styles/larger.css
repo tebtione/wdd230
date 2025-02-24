@@ -78,3 +78,12 @@
         /* Maintain margin for hero section */
     }
 }
+
+@media (max-width: 1500px) {
+    .herolabel p {
+        font-size: 1.7rem;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+    }
+}
