@@ -444,3 +444,25 @@ footer p {
 .formh1 {
     font-size: 20px;
 }
+
+/* Calender */
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar-day {
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+    border: 1px solid #ccc;
+}
