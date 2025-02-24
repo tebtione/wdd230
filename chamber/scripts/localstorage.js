@@ -1,5 +1,5 @@
 // Local Storage for Visit Tracking
-const welcomeMessage = document.getElementById('welcome-message');
+const welcomeMessage = document.getElementById('visits');
 const lastVisit = localStorage.getItem('lastVisit');
 const currentDate = Date.now();
 

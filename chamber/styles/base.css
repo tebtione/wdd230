@@ -4,7 +4,7 @@
     --accent1-color: #546a7bff;
     --accent2-color: #f2ebdc;
     --accent3-color: #e7dcd6;
-    --heading-font: "Roboto", sans-serif;
+    --background-color: #f0f0f0 --heading-font: "Roboto", sans-serif;
     --paragraph-font: "Source Sans 3", sans-serif;
 }
 
@@ -296,7 +296,7 @@ footer p {
 }
 
 /* Attractions Section */
-.attractions {
+/*.attractions {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -340,7 +340,7 @@ footer p {
 
 .attraction a:hover {
     background-color: #2980b9;
-}
+}*/
 
 /* Directory Styles */
 .directory-section {
@@ -381,71 +381,44 @@ footer p {
     color: var(--accent1-color);
 }
 
-/* Discover CSS*/
-/* Sidebar Grid Layout */
 
 /* css for discover */
 
 .discover-main {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: "main" "sidebar1";
-    margin: auto;
-    gap: 0;
+    grid-template-columns: 2fr 3fr;
+    margin: 10px 300px;
+    /* gap: 20px; */
 }
 
 .side-bar {
-    grid-area: sidebar1;
-    grid-row: 2 / 3;
-    grid-template-rows: auto;
-    margin-bottom: 30px;
-}
-
-.image-gallery {
-    grid-row: 1/2;
-    grid-area: main;
+    display: grid;
+    grid-template-rows: 1fr 1fr 3fr;
     gap: 20px;
-    padding-top: 0;
-}
-
-#calendar-container {
-    position: static;
-}
-
-.calendar-grid {
-    gap: 11.5px;
+    grid-column: 1/2;
 }
 
 .events {
-    margin-bottom: 0;
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-right: 30px;
-    width: auto;
-}
-
-.img h2 {
-    margin-top: 0;
-    margin-bottom: 5px;
-}
-
-.formdiv {
-    background-color: var(--text-color);
-    width: 80%;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: var(--background-color) solid 3px;
+    padding: 5% 12%;
+    font-size: 18px;
+    height: fit-content;
+    margin: 35px;
     border-radius: 10px;
-    padding: 20px;
+    width: auto;
+    margin: auto;
 }
 
-.direch1,
-.formh1 {
-    font-size: 20px;
+#calendar-container {
+    margin: 0 auto;
+    border: var(--background-color) solid 3px;
+    border-radius: 10px;
+    height: 350px;
+    position: sticky;
+    top: 10%;
+    height: fit-content;
 }
 
-/* Calender */
 .calendar-header {
     display: flex;
     justify-content: space-between;
@@ -465,4 +438,29 @@ footer p {
     background-color: #f0f0f0;
     text-align: center;
     border: 1px solid #ccc;
+}
+
+.image-gallery {
+    display: grid;
+    grid-column: 2/3;
+    padding: 30px;
+    gap: 20px;
+}
+
+.img img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.img img:hover {
+    transform: scale(1.1);
+}
+
+.img {
+    border: var(--background-color) solid 3px;
+    border-radius: 10px;
+    padding: 30px;
+    height: fit-content;
 }
