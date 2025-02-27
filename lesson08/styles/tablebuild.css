@@ -13,26 +13,49 @@ h2 {
 }
 
 table {
-    width: 100%;
+    width: 30%;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 20px auto;
     background-color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 caption {
-    font-size: 1.5rem;
-    margin: 10px;
-    text-align: center;
-    font-weight: bold;
+    font-size: .85em;
+    margin-bottom: 10px;
+    caption-side: bottom;
+    display: table-caption;
+    text-indent: initial;
+    border-spacing: 2px;
+    padding: 10px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
 }
 
 th,
 td {
-    padding: 12px;
+    padding: 10px;
     text-align: center;
-    border: 1px solid;
-    border-bottom: 1px solid #ddd;
+}
+
+thead th [colspan="4"] {
+    padding: 15px;
+}
+
+thead th {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+thead th:nth-child(n+2) {
+    background-color: #313131;
 }
 
 td:nth-child(1) {
