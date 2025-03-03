@@ -48,6 +48,12 @@
     }
 }
 
+.memFormh1 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
 @media (max-width: 1000px) {
     .herolabel p {
         font-size: 1.5rem;

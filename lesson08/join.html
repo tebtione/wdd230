@@ -4,45 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Join the Saratoga Chamber of Commerce</title>
-    <meta name="description" content="This is a website that showcase the Saratoga Chamber of Commerce">
+    <title>Join Us</title>
+    <meta name="description"
+        content="Wdd 230 - Web Fronted Development Course assignment portal by Tebakaro. This site showcases projects and activities.">
     <meta name="author" content="Tebakaro Tione">
+    <link rel="stylesheet" href="styles/">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
 
-    <meta property="og:title" content="WDD 230 - Saratoga Chamber of Commerce">
+    <meta property="og:title" content="Tebakaro - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tebtione.github.io/wdd230/">
-    <meta property="og:image" content="https://www.saratogasprings-ut.gov/PhotoViewScreen.aspx?PID=1&FullSize=true">
-
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link href="images/faviconsaratoga.jpg" rel="icon" type="image/x-icon">
+    <meta property="og:image" content="https://www.saratogasprings-ut.gov/Gallery.aspx?PID=1">
 </head>
 
 <body>
-
     <header>
-        <img src="images/logo.jpg" height="100" width="100" alt="logo-image">
-        <div class="logo">Saratoga Chamber of Commerce</div>
-        <div class="menu-toggle" id="menuToggle">☰</div>
-        <nav class="navMenu">
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-            </ul>
-        </nav>
+        <img src="images/Tebakaro.webp" alt="Profile Image" class="profile-image">
+        <h3>Tebakaro Tione</h3>
     </header>
-
-    <div class="toggle-container">
-        <div class="toggle-switch" id="darkModeToggle"></div>
-    </div>
-
+    <nav class="navbar">
+        <div class="hamburger" id="hamburger">&#9776;</div>
+        <ul class="menu" id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a></li>
+            <li><a href="http://www.churchofjesuschrist.org/study/scriptures" target="_blank"
+                    rel="noopener noreferrer">Scripture</a></li>
+        </ul>
+    </nav>
     <main>
-        <h1>Membership Application Form</h1>
         <form method="GET" action="thankyou.html">
             <label for="firsttName">First Name:</label>
             <input type="text" id="firstName" name="firsttName" required>
@@ -57,7 +50,7 @@
             <input type="email" id="email" name="email" required placeholder="example@domain.com">
 
             <label for="phone">Mobile Phone:</label>
-            <input type="tel" id="phone" name="phone" required placeholder="+123-444-5678">
+            <input type="tel" id="phone" name="phone" required>
 
             <label for="orgName">Organization Name:</label>
             <input type="text" id="orgName" name="orgName" required>
@@ -91,13 +84,14 @@
     </main>
 
     <footer>
-        <p>&copy; <span id="currentYear"></span> Tebakaro Tione | WDD 230 </p>
+        <p>&copy; <span id="currentYear"></span> Tebakaro Tione | WDD 230 - BYU-Idaho | Utah County</p>
         <p id="lastModified"></p>
     </footer>
 
     <script src="scripts/hamburger.js"></script>
-    <script src="scripts/toggle-switch.js"></script>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/script.js"></script>
+
 </body>
 
 </html>

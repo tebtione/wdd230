@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Join the Saratoga Chamber of Commerce</title>
+    <meta name="description" content="This is a website that showcase the Saratoga Chamber of Commerce">
+    <meta name="author" content="Tebakaro Tione">
+
+    <meta property="og:title" content="WDD 230 - Saratoga Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tebtione.github.io/wdd230/">
+    <meta property="og:image" content="https://www.saratogasprings-ut.gov/PhotoViewScreen.aspx?PID=1&FullSize=true">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="images/faviconsaratoga.jpg" rel="icon" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.jpg" height="100" width="100" alt="logo-image">
+        <div class="logo">Saratoga Chamber of Commerce</div>
+        <div class="menu-toggle" id="menuToggle">☰</div>
+        <nav class="navMenu">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="toggle-container">
+        <div class="toggle-switch" id="darkModeToggle"></div>
+    </div>
+
+    <main class="thankyou">
+        <h1 class="memFormh1">Thank You for Your Membership Application</h1>
+        <br>
+        <p>Your submission has been received. We appreciate your interest and will review your application shortly.</p>
+        <br>
+        <p>Come back some other time</p>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Tebakaro Tione | WDD 230 - BYU-Idaho | Utah County</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/toggle-switch.js"></script>
+
+</body>
+
+</html>
