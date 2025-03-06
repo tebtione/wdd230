@@ -33,16 +33,12 @@ const displayProphets = (prophets) => {
         const birthplace = document.createElement("p");
         birthplace.textContent = `Birthplace: ${prophet.birthplace}`;
 
-        const numOfChildren = document.createElement("p");
-        numOfChildren.textContent = `Number of Children: ${prophet.numofchildren}`;
-
         // Append all elements to the card
         card.appendChild(fullName);
         card.appendChild(portrait);
         card.appendChild(birthdate);
         card.appendChild(death);
         card.appendChild(birthplace);
-        card.appendChild(numOfChildren);
 
         cards.appendChild(card);
     });
