@@ -4,7 +4,7 @@ const cards = document.querySelector('#cards');
 const getProphetData = async () => {
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data); // Check the data response
+    console.table(data);
     // Call the displayProphets function with the prophets array
     displayProphets(data.prophets);
 };
@@ -44,10 +44,8 @@ const displayProphets = (prophets) => {
         card.appendChild(birthplace);
         card.appendChild(numOfChildren);
 
-        // Append the card to the cards container
         cards.appendChild(card);
     });
 };
 
-// Call the function to fetch and display the data
 getProphetData();
