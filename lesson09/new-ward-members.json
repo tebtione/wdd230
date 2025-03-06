@@ -1,0 +1,30 @@
+{
+    "wardInformation": {
+        "familyName": "Tione",
+        "movingDate": "07-25-2025",
+        "familyNumber": 4,
+        "bishopricVisited": true,
+        "familyMembers": [
+            {
+                "name": "Roriki Lucy Tione",
+                "gender": "female",
+                "birthdate": "11-12-2016"
+            },
+            {
+                "name": "Beateiti Sariah Tione",
+                "gender": "female",
+                "birthdate": "09-16-2009"
+            },
+            {
+                "name": "Akineti Tokaiti",
+                "gender": "female",
+                "birthdate": "07-20-1998"
+            },
+            {
+                "name": "Tebakaro Tione",
+                "gender": "male",
+                "birthdate": "06-07-1984"
+            }
+        ]
+    }
+}
