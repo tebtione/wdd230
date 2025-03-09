@@ -4,12 +4,8 @@
             "lesson": "01",
             "links": [
                 {
-                    "url": "https://tebtione.github.io/wdd230/lesson01/holygrail.html",
-                    "title": "Activity 1"
-                },
-                {
-                    "url": "#",
-                    "title": "Assignment 1"
+                    "url": "lesson01/holygrail.html",
+                    "title": "Holy Grail Layout"
                 }
             ]
         },

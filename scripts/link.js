@@ -4,31 +4,47 @@ const linksURL = "https://tebtione.github.io/wdd230/data/links.json";
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
+    console.log(data);
     displayLinks(data.lessons);
 }
 
-function displayLinks(weeks) {
-    const linksContainer = document.getElementById("linksContainer");
-    linksContainer.innerHTML = ""; // Clear any existing content
 
-    weeks.forEach(week => {
-        const weekHeading = document.createElement("h3");
-        weekHeading.textContent = `Lesson ${week.lesson}`;
-        linksContainer.appendChild(weekHeading);
+function displayLinks(lessons) {
+    const menu = document.getElementById("linksContainer");
 
-        const linksList = document.createElement("ul");
+    menu.innerHTML = "";
 
-        week.links.forEach(link => {
-            const listItem = document.createElement("li");
+
+    const list = document.createElement("ul")
+    lessons.forEach(lesson => {
+        const weekNum = lesson.lesson;
+        const links = lesson.links;
+
+        const weekItem = document.createElement("li");
+        const weekText = document.createTextNode(`Week ${weekNum}: `);
+        weekItem.appendChild(weekText);
+
+        const linksContainer = document.createElement("span");
+
+        links.forEach((link, index) => {
+
             const anchor = document.createElement("a");
-            anchor.href = baseURL + link.url;
+            anchor.href = link.url.startsWith("http") ? link.url : baseURL + link.url;
             anchor.textContent = link.title;
-            listItem.appendChild(anchor);
-            linksList.appendChild(listItem);
+            linksContainer.appendChild(anchor);
+
+            if (index < links.length - 1) {
+                const separator = document.createTextNode(" | ");
+                linksContainer.appendChild(separator);
+            }
         });
 
-        linksContainer.appendChild(linksList);
+
+        weekItem.appendChild(linksContainer);
+        list.appendChild(weekItem);
     });
+
+    menu.appendChild(list);
 }
 
 getLinks();
