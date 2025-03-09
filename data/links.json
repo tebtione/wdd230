@@ -1,0 +1,154 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url": "https://tebtione.github.io/wdd230/lesson01/holygrail.html",
+                    "title": "Holy Grail Layout"
+                },
+                {
+                    "url": "#",
+                    "title": "Assignment 1"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "https://tebtione.github.io/wdd230/lesson02/design.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "https://tebtione.github.io/wdd230/lesson02/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "https://tebtione.github.io/wdd230/lesson02/design-principles.html",
+                    "title": "Design Principles"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "http://127.0.0.1:5501/wdd230/images/CSS-Combinator.jpg",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "https://codepen.io/Tebakaro-Tione/pen/xbKQGgK",
+                    "title": "CSS Psuedo Elements"
+                },
+                {
+                    "url": "https://codepen.io/Tebakaro-Tione/pen/GgKwJey",
+                    "title": "Hamburger Menu"
+                },
+                {
+                    "url": "https://tebtione.github.io/wdd230/lesson03/chamber-site-plan.html",
+                    "title": "Chamber of Commerce Site Plan"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "https://codepen.io/Tebakaro-Tione/pen/ogvmZOa",
+                    "title": "CSS Psuedo-Classes"
+                },
+                {
+                    "url": "https://tebtione.github.io/wdd230/chamber/index.html",
+                    "title": "Chamber of Commerce Page Build"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "https://tebtione.github.io/wdd230/lesson05/bom.html",
+                    "title": "Book of Mormon - Top 10"
+                },
+                {
+                    "url": "https://tebtione.github.io/wdd230/chamber/index.html",
+                    "title": "Chamber Home Page - Dark Mode"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "https://tebtione.github.io/wdd230/lesson06/images/landscape.webp",
+                    "title": "Landscape.webp"
+                },
+                {
+                    "url": "https://tebtione.github.io/wdd230/lesson06/responsive-images.html",
+                    "title": "Responsive Images"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url": "https://tebtione.github.io/wdd230/lesson07/lazyload.html",
+                    "title": "Lazy Load Images"
+                },
+                {
+                    "url": "assignment07.html",
+                    "title": "Assignment 7"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url": "CSS-KeyFrame Animation",
+                    "title": "CSS-KeyFrame Animation"
+                },
+                {
+                    "url": "https://tebtione.github.io/wdd230/lesson08/tablebuild.html",
+                    "title": "Table Activity"
+                },
+                {
+                    "url": "https://tebtione.github.io/wdd230/form.html",
+                    "title": "Form Page Build"
+                },
+                {
+                    "url": "https://tebtione.github.io/wdd230/lesson08/join.html",
+                    "title": "Chamber Join Page"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url": "https://tebtione.github.io/wdd230/lesson09/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "https://tebtione.github.io/wdd230/lesson09/prophets.html",
+                    "title": "The Fetch API Activity - Prophets"
+                }
+            ]
+        },
+        {
+            "lesson": "10",
+            "links": [
+                {
+                    "url": "activity10.html",
+                    "title": "Activity 10"
+                },
+                {
+                    "url": "assignment10.html",
+                    "title": "Assignment 10"
+                }
+            ]
+        }
+    ]
+}
