@@ -13,15 +13,15 @@
             "lesson": "02",
             "links": [
                 {
-                    "url": "https://tebtione.github.io/wdd230/lesson02/design.html",
+                    "url": "lesson02/design.html",
                     "title": "Design"
                 },
                 {
-                    "url": "https://tebtione.github.io/wdd230/lesson02/media-query.html",
+                    "url": "lesson02/media-query.html",
                     "title": "Media Query"
                 },
                 {
-                    "url": "https://tebtione.github.io/wdd230/lesson02/design-principles.html",
+                    "url": "lesson02/design-principles.html",
                     "title": "Design Principles"
                 }
             ]
@@ -30,7 +30,7 @@
             "lesson": "03",
             "links": [
                 {
-                    "url": "http://127.0.0.1:5501/wdd230/images/CSS-Combinator.jpg",
+                    "url": "images/CSS-Combinator.jpg",
                     "title": "CSS Combinators"
                 },
                 {
@@ -42,7 +42,7 @@
                     "title": "Hamburger Menu"
                 },
                 {
-                    "url": "https://tebtione.github.io/wdd230/lesson03/chamber-site-plan.html",
+                    "url": "lesson03/chamber-site-plan.html",
                     "title": "Chamber of Commerce Site Plan"
                 }
             ]
