@@ -14,10 +14,10 @@
     <meta property="og:url" content="https://tebtione.github.io/wdd230/">
     <meta property="og:image" content="https://www.saratogasprings-ut.gov/PhotoViewScreen.aspx?PID=1&FullSize=true">
 
+    <link rel="stylesheet" href="styles/members.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/form.css">
-    <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link href="images/faviconsaratoga.jpg" rel="icon" type="image/x-icon">
 </head>
@@ -43,7 +43,12 @@
     </div>
 
     <main>
-        <div class="company-list" id="companyList"></div>
+        <h1>Saratoga Springs Businesses</h1>
+        <div class="controls">
+            <button class="button" id="gridViewBtn">Grid View</button>
+            <button class="button" id="listViewBtn">List View</button>
+        </div>
+        <div class="container" id="businesses"></div>
 
     </main>
 

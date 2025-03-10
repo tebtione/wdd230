@@ -4,7 +4,7 @@
         "address": "1307 N. 2000 W., Saratoga Springs, UT 84045",
         "phone": "801-766-9793",
         "website": "http://saratogaspringschamber.com",
-        "image": "chamber.png",
+        "image": "images/Lehi-City-logo.webp",
         "membershipLevel": "Gold",
         "description": "Supporting local businesses and promoting economic growth."
     },
@@ -13,7 +13,7 @@
         "address": "1307 N. 2000 W., Saratoga Springs, UT 84045",
         "phone": "801-766-9835",
         "website": "http://saratogaspringscity.com",
-        "image": "city.png",
+        "image": "images/Lehi-City-logo.webp",
         "membershipLevel": "Platinum",
         "description": "Providing community services and governance."
     },
