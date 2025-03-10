@@ -107,8 +107,12 @@
                     "title": "Table Activity"
                 },
                 {
-                    "url": "https://tebtione.github.io/wdd230/form.html",
-                    "title": "Form Page Build"
+                    "url": "lesson08/form-start/Form-start/index.html",
+                    "title": "Form-Start"
+                },
+                {
+                    "url": "form.html",
+                    "title": "Form Build"
                 },
                 {
                     "url": "lesson08/join.html",
