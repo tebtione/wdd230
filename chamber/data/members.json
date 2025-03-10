@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Saratoga Springs Chamber of Commerce",
+        "address": "1307 N. 2000 W., Saratoga Springs, UT 84045",
+        "phone": "801-766-9793",
+        "website": "http://saratogaspringschamber.com",
+        "image": "chamber.png",
+        "membershipLevel": "Gold",
+        "description": "Supporting local businesses and promoting economic growth."
+    },
+    {
+        "name": "Saratoga Springs City",
+        "address": "1307 N. 2000 W., Saratoga Springs, UT 84045",
+        "phone": "801-766-9835",
+        "website": "http://saratogaspringscity.com",
+        "image": "city.png",
+        "membershipLevel": "Platinum",
+        "description": "Providing community services and governance."
+    },
+    {
+        "name": "The Homestead Resort",
+        "address": "700 N Homestead Dr, Midway, UT 84049",
+        "phone": "435-654-1102",
+        "website": "http://homesteadresort.com",
+        "image": "homestead.png",
+        "membershipLevel": "Gold",
+        "description": "A historic resort offering relaxation and recreation."
+    },
+    {
+        "name": "Saratoga Springs Dental",
+        "address": "1401 N. 2000 W., Saratoga Springs, UT 84045",
+        "phone": "801-766-0920",
+        "website": "http://saratogaspringsdental.com",
+        "image": "dental.png",
+        "membershipLevel": "Silver",
+        "description": "Comprehensive dental care for the whole family."
+    },
+    {
+        "name": "Saratoga Springs Public Library",
+        "address": "1307 N. 2000 W., Saratoga Springs, UT 84045",
+        "phone": "801-766-6505",
+        "website": "http://saratogaspringslibrary.com",
+        "image": "library.png",
+        "membershipLevel": "Bronze",
+        "description": "A hub for learning and community engagement."
+    },
+    {
+        "name": "Saratoga Springs Fitness",
+        "address": "1225 N. 2000 W., Saratoga Springs, UT 84045",
+        "phone": "801-766-8000",
+        "website": "http://saratogaspringsfitness.com",
+        "image": "fitness.png",
+        "membershipLevel": "Gold",
+        "description": "Your local gym for health and wellness."
+    },
+    {
+        "name": "Saratoga Springs Floral",
+        "address": "2000 N. 300 W., Saratoga Springs, UT 84045",
+        "phone": "801-766-1234",
+        "website": "http://saratogaspringsfloral.com",
+        "image": "floral.png",
+        "membershipLevel": "Silver",
+        "description": "Beautiful floral arrangements for any occasion."
+    }
+]

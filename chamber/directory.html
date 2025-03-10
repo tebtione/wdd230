@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Saratoga Chamber of Commerce Home</title>
-    <meta name="description" content="This is a website that showcase the Saratoga Chamber of Commerce">
+    <title>Companies in Saratoga Springs, UT</title>
+    <meta name="description" content="This is a website that showcases the Saratoga Chamber of Commerce">
     <meta name="author" content="Tebakaro Tione">
 
     <meta property="og:title" content="WDD 230 - Saratoga Chamber of Commerce">
@@ -15,8 +15,9 @@
     <meta property="og:image" content="https://www.saratogasprings-ut.gov/PhotoViewScreen.aspx?PID=1&FullSize=true">
 
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link href="images/faviconsaratoga.jpg" rel="icon" type="image/x-icon">
 </head>
@@ -24,7 +25,7 @@
 <body>
 
     <header>
-        <img src="images/logo.jpg" height="100" width="100" alt="logo-image">
+        <img src="images/logo.webp" height="100" width="100" alt="logo-image">
         <div class="logo">Saratoga Chamber of Commerce</div>
         <div class="menu-toggle" id="menuToggle">☰</div>
         <nav class="navMenu">
@@ -42,23 +43,8 @@
     </div>
 
     <main>
-        <section class="directory-section">
-            <h2>Contact Directory</h2>
-            <ul class="directory-list">
-                <li class="directory-item">
-                    <span class="name">James Rich</span> - <span class="phone">(123) 456-7890</span>
-                </li>
-                <li class="directory-item">
-                    <span class="name">Cory Smith</span> - <span class="phone">(987) 654-3210</span>
-                </li>
-                <li class="directory-item">
-                    <span class="name">Emily Robertson</span> - <span class="phone">(555) 555-5555</span>
-                </li>
-                <li class="directory-item">
-                    <span class="name">Michael Fred</span> - <span class="phone">(444) 444-4444</span>
-                </li>
-            </ul>
-        </section>
+        <div class="company-list" id="companyList"></div>
+
     </main>
 
     <footer>
@@ -68,6 +54,8 @@
 
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/toggle-switch.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/members.js"></script>
 </body>
 
 </html>
