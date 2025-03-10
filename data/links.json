@@ -130,6 +130,10 @@
                 {
                     "url": "lesson09/prophets.html",
                     "title": "The Fetch API Activity - Prophets"
+                },
+                {
+                    "url": "chamber/directory.html",
+                    "title": "Chamber Directory"
                 }
             ]
         },
