@@ -1,6 +1,6 @@
 const latitude = 40.36666388708853;
 const longitude = -111.88730041920505;
-const apiKey = '9508730b12a2fe9ec19f307b79beb2ab';
+const apiKey = '87c8cf28468b1eedbc10f2c5c3d4f9f7';
 
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
