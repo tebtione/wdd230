@@ -1,0 +1,30 @@
+.weather {
+    display: grid;
+    grid-template-columns: none;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.weather p {
+    font-size: 1.5em;
+    color: black;
+    margin: 20px 0;
+}
+
+.weather img {
+    max-width: 100%;
+    height: auto;
+}
+
+.weather figcaption {
+    font-size: 1em;
+    color: #0f0f0f;
+    margin-top: 10px;
+}
