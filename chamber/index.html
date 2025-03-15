@@ -17,11 +17,12 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/banner.css">
     <link href="images/faviconsaratoga.jpg" rel="icon" type="image/x-icon">
 </head>
 
-<body>
 
+<body>
     <header>
         <img src="images/logo.webp" height="100" width="100" alt="logo-image">
         <div class="logo">Saratoga Chamber of Commerce</div>
@@ -38,6 +39,11 @@
 
     <div class="toggle-container">
         <div class="toggle-switch" id="darkModeToggle"></div>
+    </div>
+
+    <div class="banner" id="banner">
+        <button class="close-btn" onclick="closeBanner()">❌</button>
+        Join us for the Chamber of Commerce Meet and Greet on Wednesday at 7:00 p.m.!
     </div>
 
     <main>
@@ -105,6 +111,8 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/toggle-switch.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/banner.js"></script>
+
 </body>
 
 </html>
