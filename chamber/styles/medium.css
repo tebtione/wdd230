@@ -39,12 +39,16 @@
     main {
         padding: 30px;
         /* Add padding to main content for spacing */
+        box-sizing: border-box;
+        /* Ensure padding is included in width calculations */
     }
 
     /* Ensure the hero section still spans full width */
     .hero {
         margin: 20px auto;
         /* Center the hero section */
+        width: 100%;
+        /* Full width for hero section */
     }
 }
 
@@ -60,11 +64,18 @@
         padding: 15px;
         background-color: rgba(0, 0, 0, 0.7);
         color: white;
+        box-sizing: border-box;
+        /* Include padding in width */
     }
 }
 
 @media (max-width: 768px) {
     main {
+        display: grid;
+        /* Use grid layout for smaller screens */
         grid-template-columns: repeat(2, 1fr);
+        /* Two columns */
+        gap: 20px;
+        /* Space between grid items */
     }
 }
