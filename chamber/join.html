@@ -22,24 +22,26 @@
 </head>
 
 <body>
-
     <header>
-        <img src="images/logo.jpg" height="100" width="100" alt="logo-image">
+        <img src="images/logo.webp" height="100" width="100" alt="logo-image">
         <div class="logo">Saratoga Chamber of Commerce</div>
         <div class="menu-toggle" id="menuToggle">☰</div>
-        <nav class="navMenu">
+        <div class="close-toggle" id="closeToggle">✖</div>        
+
+        <div class="navMenu" style="display: none;">
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
             </ul>
-        </nav>
+            <div class="toggle-container">
+                <div class="toggle-switch" id="darkModeToggle"></div>
+            </div>
+        </div>
     </header>
 
-    <div class="toggle-container">
-        <div class="toggle-switch" id="darkModeToggle"></div>
-    </div>
+
 
     <main>
         <h1>Membership Application Form</h1>

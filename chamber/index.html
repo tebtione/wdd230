@@ -27,19 +27,20 @@
         <img src="images/logo.webp" height="100" width="100" alt="logo-image">
         <div class="logo">Saratoga Chamber of Commerce</div>
         <div class="menu-toggle" id="menuToggle">☰</div>
-        <nav class="navMenu">
+        <div class="close-toggle" id="closeToggle">✖</div>        
+
+        <div class="navMenu" style="display: none;">
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
             </ul>
-        </nav>
+            <div class="toggle-container">
+                <div class="toggle-switch" id="darkModeToggle"></div>
+            </div>
+        </div>
     </header>
-
-    <div class="toggle-container">
-        <div class="toggle-switch" id="darkModeToggle"></div>
-    </div>
 
     <div class="banner" id="banner">
         <button class="close-btn" onclick="closeBanner()">❌</button>
@@ -59,52 +60,46 @@
             </div>
         </div>
 
-        <div class="left-content">
-            <div id="welcome">
-                <h2>Welcome</h2>
-                <p>Welcome to the Chamber of Commerce. We support local businesses and promote economic growth.</p>
+        <section class="event-weather">
+            <div class="card">
+                <h2> Events</h2>
             </div>
-
-
-            <div class="right-content">
-                <picture>
-                    <img src="images/OIP.webp" alt="Weather-icon">
-                </picture>
-                <h2>Weather Information</h2>
-                <p>Temperature: <span id="temperature">45</span>°F</p>
-                <p>Wind Speed: <span id="windSpeed">5</span> mph</p>
-                <p>Wind Chill: <span id="windChill"></span></p>
-                <div id="forecast">
-                    <h3>Three-Day Forecast</h3>
-                    <div id="forecastData"></div>
+            <div class="card">  
+                <h2>Weather</h2>
+                <div id="weather">
+                    <div class="temp"> 
+                        <p >Temperature:</p>
+                        <div class="temprature"> 
+                           
+                            <p> <span id="temperature">--</span>°F</p>
+                            <p><span id="weatherDescription">--</span></p>
+                        </div>
+                    </div>
+                    <p>Wind Speed: <span id="windSpeed">--</span> mph</p>
+                    <p>Wind Chill: <span id="windChill">--</span> °F</p>
+                    <div id="forecast">
+                        <h3>Three-Day Forecast</h3>
+                        <div id="forecastData">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="center-content">
-            <div id="events">
-                <h2>Key Events Highlights</h2>
-                <p>The chamber is actively inviting everyone to come and join us in our activities. Checkout our
-                    upcoming events and learn more about the Chamber's activities and plans.</p>
+        <section class="add">
+            <div class="card" id="ad1">
+                <h2><span class="logo"></span> Company Name</h2>
+                <p></p>
             </div>
-            <div id="contact">
-                <h2>Contact Us</h2>
-                <p>Get in touch with us for more information.</p>
+            <div class="card" id="ad2">
+                <h2><span class="logo"></span> Company Name</h2>
+                <p> </p>
             </div>
-            <div id="spotlight">
-                <h2>Spotlight</h2>
-                <img src="images/spotlight1.webp" width="200" height="300" alt="spotlight1">
-                <img src="images/spotlight2.webp" width="200" height="300" alt="spotlight2">
-                <img src="images/spotlight3.webp" width="200" height="300" alt="spotlight3">
-                <p>Some of the business spotlights</p>
+            <div class="card" id="ad3"> 
+                <h2><span class="logo"></span> Company Name</h2>
+                <p></p>
             </div>
-        </div>
-
-        <div id="services">
-            <h2>Our Services</h2>
-            <p>We offer a variety of services to help businesses thrive.</p>
-        </div>
-
+        </section>
     </main>
 
     <footer>
