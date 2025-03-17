@@ -1,3 +1,7 @@
+const bannerElement = document.getElementById('banner');
+const closeBannerButton = document.getElementById('closeBanner');
+
+
 // windchill.js
 function calculateWindChill(temperature, windSpeed) {
     // Check the specifications for wind chill calculation
@@ -23,3 +27,23 @@ function displayWindChill() {
 
 // Call the displayWindChill function when the document is ready
 document.addEventListener('DOMContentLoaded', displayWindChill);
+
+
+// Function to display the popup banner on specified days
+function displayPopupBanner() {
+    const today = new Date();
+    const dayOfWeek = today.getDay(); 
+    
+    if (dayOfWeek >= 1 && dayOfWeek <= 3) { 
+        document.getElementById('overlay').style.display = 'block'; 
+        document.getElementById('popupBanner').style.display = 'block'; 
+    }
+}
+// Function to close the popup banner
+function closePopupBanner() {
+    document.getElementById('overlay').style.display = 'none'; 
+    document.getElementById('popupBanner').style.display = 'none'; 
+}
+
+
+displayPopupBanner();
