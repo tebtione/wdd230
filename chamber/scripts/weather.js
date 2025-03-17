@@ -1,5 +1,5 @@
-const apiKey = 'YOUR_API_KEY'; // Replace with your OpenWeatherMap API key
-const city = 'YOUR_CITY'; // Replace with your city
+const apiKey = '87c8cf28468b1eedbc10f2c5c3d4f9f7'; // Replace with your OpenWeatherMap API key
+const city = 'Saratoga Springs Utah'; // Replace with your city
 const today = new Date();
 const day = today.getDay();
 const popupBanner = document.getElementById('popupBanner');
@@ -13,10 +13,10 @@ function closePopupBanner() {
 }
 
 async function fetchWeather() {
-    const currentWeatherResponse = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`);
+    const currentWeatherResponse = await fetch(`https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&appid={API key}`);
     const currentWeather = await currentWeatherResponse.json();
 
-    const forecastResponse = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=imperial`);
+    const forecastResponse = await fetch(`https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&appid={API key}`);
     const forecastData = await forecastResponse.json();
 
     // Update current weather

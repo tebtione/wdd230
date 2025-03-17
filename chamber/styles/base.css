@@ -496,6 +496,14 @@ button[type="submit"]:hover {
     margin-bottom: 10px;
 }
 
+.weather-icon {
+    width: 34px;        /* Set the width of the icon */
+    height: 34px;       /* Set the height of the icon */
+    object-fit: cover;  /* Maintain aspect ratio while filling the box */
+    vertical-align: middle; /* Align the icon vertically centered with text */
+    margin-left: 5px;   /* Add some space between the text and the icon */
+}
+
 /* Weather Information */
 #weather {
     margin-top: 10px;
