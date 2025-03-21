@@ -8,7 +8,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #cebbbb;
+    background-color:white;
 }
 
 nav {
@@ -53,8 +53,8 @@ h1 {
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+    flex: 1;
+    margin-right: 20px;
 }
 
 fieldset {
@@ -111,4 +111,23 @@ footer {
 
 #currentYear {
     font-weight: bold;
+}
+
+aside {
+    flex: 0 0 300px; /* Fixed width for the sidebar */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    aside {
+        margin-top: 20px; /* Add margin for smaller screens */
+        flex: none; /* Reset flex for smaller screens */
+    }
 }

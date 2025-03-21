@@ -311,22 +311,7 @@ footer p {
     transform: translateX(30px);
 }
 
-/* Additional Styles */
-.join-container,
-.disc-container {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    background: var(--accent1-color);
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
 
-.discover-statement {
-    margin: 20px 0;
-    font-size: 18px;
-    line-height: 1.6;
-}
 
 /* Directory Styles */
 .directory-section {
@@ -400,7 +385,7 @@ input[type="email"]:focus,
 input[type="tel"]:focus,
 select:focus,
 textarea:focus {
-    border-color: #007BFF;
+    border-color: red;
     outline: none;
 }
 
