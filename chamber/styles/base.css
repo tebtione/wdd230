@@ -558,7 +558,6 @@ button[type="submit"]:hover {
     margin-bottom: 10px;
 }
 
-
 .logo {
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Center horizontally */
@@ -592,4 +591,27 @@ button[type="submit"]:hover {
         margin-bottom: 15px;
         padding: 25px;
     }
+}
+
+/* Join the Chamber CSS */
+.join-chamber {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(68, 65, 65, 0.17);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.join-chamber a {
+    text-decoration: none; 
+    color: var(--primary-color); 
+    font-weight: bold; 
+    font-size: 30px; 
+    transition: color 0.3s; 
+}
+
+.join-chamber a:hover {
+    color:#0056b3; 
 }
