@@ -207,36 +207,48 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .left-content, .right-content {
-        padding: 10px 0; /* Adjust padding for single column */
+    .left-content,
+    .right-content {
+        padding: 10px 0;
+        /* Adjust padding for single column */
     }
 
     /* Optional: Center text on small screens */
-    .left-content h2, .right-content h2 {
-        text-align: center; /* Center headings */
+    .left-content h2,
+    .right-content h2 {
+        text-align: center;
+        /* Center headings */
     }
 
-    .left-content p, .right-content p {
-        text-align: justify; /* Justify text for better readability */
+    .left-content p,
+    .right-content p {
+        text-align: justify;
+        /* Justify text for better readability */
     }
 
     .navMenu {
-        display: none; /* Hide nav menu on mobile screens */
+        display: none;
+        /* Hide nav menu on mobile screens */
     }
 
     .close-toggle {
-        display: none; /* Hide close button on mobile screens */
-        position: absolute; /* Position it absolutely */
-        right: 20px; /* Adjust this value to position it from the right edge */
+        display: none;
+        /* Hide close button on mobile screens */
+        position: absolute;
+        /* Position it absolutely */
+        right: 20px;
+        /* Adjust this value to position it from the right edge */
     }
 
     .menu-toggle {
-        display: block; /* Show menu toggle on mobile screens */
+        display: block;
+        /* Show menu toggle on mobile screens */
     }
 
     /* When navMenu is visible, show the close toggle */
-    .navMenu.active + .close-toggle {
-        display: block; /* Show close button when menu is active */
+    .navMenu.active+.close-toggle {
+        display: block;
+        /* Show close button when menu is active */
     }
 
     .nav-links {
@@ -249,6 +261,7 @@ main {
 }
 
 @media (max-width: 480px) {
+
     header,
     footer {
         padding: 20px 5%;
@@ -257,8 +270,16 @@ main {
 
 @media (min-width: 768px) {
     .discover-main {
-        grid-template-columns: 2fr 3fr;
-        margin: 10px 200px;
+        display: flex;
+    }
+
+    form {
+        flex: 1;
+    }
+
+    aside {
+        flex: 0 0 300px;
+        margin-left: 20px;
     }
 }
 
@@ -452,7 +473,7 @@ button[type="submit"]:hover {
 .popupBanner {
     top: 40%;
     left: 46%;
-  }
+}
 
 /* Event Weather Section */
 .event-weather {
@@ -482,11 +503,16 @@ button[type="submit"]:hover {
 }
 
 .weather-icon {
-    width: 34px;        /* Set the width of the icon */
-    height: 34px;       /* Set the height of the icon */
-    object-fit: cover;  /* Maintain aspect ratio while filling the box */
-    vertical-align: middle; /* Align the icon vertically centered with text */
-    margin-left: 5px;   /* Add some space between the text and the icon */
+    width: 34px;
+    /* Set the width of the icon */
+    height: 34px;
+    /* Set the height of the icon */
+    object-fit: cover;
+    /* Maintain aspect ratio while filling the box */
+    vertical-align: middle;
+    /* Align the icon vertically centered with text */
+    margin-left: 5px;
+    /* Add some space between the text and the icon */
 }
 
 /* Weather Information */
@@ -532,6 +558,7 @@ button[type="submit"]:hover {
     width: 45%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .add .card {
     flex: 1;
     margin: 0 10px;
@@ -544,28 +571,42 @@ button[type="submit"]:hover {
 }
 
 .logo {
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    font-size: 24px; /* Size of the text */
-    font-weight: bold; /* Make the text bold */
-    color: #d7d7d7; /* Dark color for the text */
-    margin: 20px 0; /* Margin above and below the logo */
-    padding: 10px; /* Padding around the text */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
-    transition: background-color 0.3s; /* Smooth background color transition */
-    max-width: 100%; 
-    height: auto; 
+    display: flex;
+    /* Use flexbox for centering */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    font-size: 24px;
+    /* Size of the text */
+    font-weight: bold;
+    /* Make the text bold */
+    color: #d7d7d7;
+    /* Dark color for the text */
+    margin: 20px 0;
+    /* Margin above and below the logo */
+    padding: 10px;
+    /* Padding around the text */
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow effect */
+    transition: background-color 0.3s;
+    /* Smooth background color transition */
+    max-width: 100%;
+    height: auto;
 }
 
 .logo:hover {
-    background-color: #bdc3c7; /* Change background color on hover */
+    background-color: #bdc3c7;
+    /* Change background color on hover */
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .event-weather, .add {
+
+    .event-weather,
+    .add {
         flex-direction: column;
         align-items: center;
         padding: 20px;
@@ -590,13 +631,13 @@ button[type="submit"]:hover {
 }
 
 .join-chamber a {
-    text-decoration: none; 
-    color: var(--primary-color); 
-    font-weight: bold; 
-    font-size: 30px; 
-    transition: color 0.3s; 
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 30px;
+    transition: color 0.3s;
 }
 
 .join-chamber a:hover {
-    color:#0056b3; 
+    color: #0056b3;
 }

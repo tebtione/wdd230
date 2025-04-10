@@ -1,0 +1,52 @@
+{
+  "rentals": [
+    {
+      "type": "Honda Metropolitan",
+      "maxPersons": 1,
+      "halfDayPriceReservation": 20,
+      "fullDayPriceReservation": 30,
+      "halfDayPriceWalkIn": 25,
+      "fullDayPriceWalkIn": 35
+    },
+    {
+      "type": "Honda Dio",
+      "maxPersons": 2,
+      "halfDayPriceReservation": 30,
+      "fullDayPriceReservation": 40,
+      "halfDayPriceWalkIn": 35,
+      "fullDayPriceWalkIn": 45
+    },
+    {
+      "type": "Honda PCX150",
+      "maxPersons": 2,
+      "halfDayPriceReservation": 40,
+      "fullDayPriceReservation": 50,
+      "halfDayPriceWalkIn": 45,
+      "fullDayPriceWalkIn": 55
+    },
+    {
+      "type": "Honda Pioneer ATV",
+      "maxPersons": 4,
+      "halfDayPriceReservation": 50,
+      "fullDayPriceReservation": 70,
+      "halfDayPriceWalkIn": 60,
+      "fullDayPriceWalkIn": 80
+    },
+    {
+      "type": "Jeep Wrangler 4 door with A/C",
+      "maxPersons": 5,
+      "halfDayPriceReservation": 70,
+      "fullDayPriceReservation": 100,
+      "halfDayPriceWalkIn": 85,
+      "fullDayPriceWalkIn": 125
+    },
+    {
+      "type": "Jeep Wrangler 2 door",
+      "maxPersons": 4,
+      "halfDayPriceReservation": 60,
+      "fullDayPriceReservation": 85,
+      "halfDayPriceWalkIn": 70,
+      "fullDayPriceWalkIn": 90
+    }
+  ]
+}
